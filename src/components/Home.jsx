@@ -12,6 +12,7 @@ const information = [{
 export default function Home() {
     return (
         <div className={styleH['Home']}>
+            <NavBar/>
             <div className={styleH['title']}>
                 <h1 className={styleH["title-h1"]}>Nivel Primaria</h1>
             </div>
@@ -23,7 +24,6 @@ export default function Home() {
             <div className={styleH['title']}>
                 <h4 className={styleH['title-h4']}>3er GRADO</h4>
             </div>
-            <NavBar/>
 
 
             <button className={styleH['button-h']}>Contenido</button>

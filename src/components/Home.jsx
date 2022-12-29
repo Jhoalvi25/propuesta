@@ -1,7 +1,9 @@
 import React from "react";
 import styleH from '../style/Home.module.css';
+import Content from "./Content";
 import Data from "./Data";
 import NavBar from "./NavBar";
+import Contenido from "./Content";
 
 const information = [{
     Alumno: 'Abimael',
@@ -21,10 +23,7 @@ export default function Home() {
                 <Data information={information}/>
             </div>
 
-            <div className={styleH['title']}>
-                <h4 className={styleH['title-h4']}>3er GRADO</h4>
-            </div>
-
+            <Contenido/>
 
             <button className={styleH['button-h']}>Contenido</button>
             <button className={styleH['button-h']}>Vídeo</button>

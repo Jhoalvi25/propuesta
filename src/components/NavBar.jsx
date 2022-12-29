@@ -49,7 +49,7 @@ export default function Nav() {
                   </Center>
                   <br />
                   <Center>
-                    <p>Jhoalvi Ruedas</p>
+                    <p>Jhoalvi Ruedas Ferrer</p>
                   </Center>
                   <br />
                   <MenuDivider />

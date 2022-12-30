@@ -24,11 +24,6 @@ export default function Home() {
             </div>
 
             <Contenido/>
-
-            <button className={styleH['button-h']}>Contenido</button>
-            <button className={styleH['button-h']}>Vídeo</button>
-            <button className={styleH['button-h']}>Ejercicios</button>
-            <button className={styleH['button-h']}>Examen</button>
         </div>
     )
 }

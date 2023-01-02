@@ -12,93 +12,169 @@ import imagen12 from '../img/Content/1-12.jpg'
 import imagen13 from '../img/Content/1-13.jpg'
 import styleContent from '../style/Content.module.css'
 
-
 export default function Content() {
-    function mostrar() {
-        document.getElementById(styleContent.img).style.display = 'block';
+    function mostrar1() {
+        document.getElementById(styleContent.img1).style.display = 'block';
     }
-    function ocultar() {
-        document.getElementById(styleContent.img).style.display = 'none';
+    function ocultar1() {
+        document.getElementById(styleContent.img1).style.display = 'none';
+    }
+    function mostrar3() {
+        document.getElementById(styleContent.img3).style.display = 'block';
+    }
+    function ocultar3() {
+        document.getElementById(styleContent.img3).style.display = 'none';
+    }
+    function mostrar4() {
+        document.getElementById(styleContent.img4).style.display = 'block';
+    }
+    function ocultar4() {
+        document.getElementById(styleContent.img4).style.display = 'none';
+    }
+    function mostrar6() {
+        document.getElementById(styleContent.img6).style.display = 'block';
+    }
+    function ocultar6() {
+        document.getElementById(styleContent.img6).style.display = 'none';
+    }
+    function mostrar7() {
+        document.getElementById(styleContent.img7).style.display = 'block';
+    }
+    function ocultar7() {
+        document.getElementById(styleContent.img7).style.display = 'none';
+    }
+    function mostrar8() {
+        document.getElementById(styleContent.img8).style.display = 'block';
+    }
+    function ocultar8() {
+        document.getElementById(styleContent.img8).style.display = 'none';
+    }
+    function mostrar9() {
+        document.getElementById(styleContent.img9).style.display = 'block';
+    }
+    function ocultar9() {
+        document.getElementById(styleContent.img9).style.display = 'none';
+    }
+    function mostrar10() {
+        document.getElementById(styleContent.img10).style.display = 'block';
+    }
+    function ocultar10() {
+        document.getElementById(styleContent.img10).style.display = 'none';
+    }
+    function mostrar11() {
+        document.getElementById(styleContent.img11).style.display = 'block';
+    }
+    function ocultar11() {
+        document.getElementById(styleContent.img11).style.display = 'none';
+    }
+    function mostrar12() {
+        document.getElementById(styleContent.img12).style.display = 'block';
+    }
+    function ocultar12() {
+        document.getElementById(styleContent.img12).style.display = 'none';
+    }
+    function mostrar13() {
+        document.getElementById(styleContent.img13).style.display = 'block';
+    }
+    function ocultar13() {
+        document.getElementById(styleContent.img13).style.display = 'none';
     }
     return (
-        <div>
-            <button id="boton" onClick={mostrar}>Mostrar Imagen</button>
-            <h1 id="boton" onClick={mostrar}> Bienvenida</h1>
-            <div id={styleContent.img}>
-                <button id="boton" onClick={ocultar}>Ocultar Imagen</button>
-                <img src={imagen1} width="400px" alt="" />
+        <div className="linea">
+            <div className="content">
+                <h1>Ciencias Naturales</h1>
+                <h4>3er Grado</h4>
             </div>
+            <center>
+                <div className='tema'>
+                    <p id="boton" onClick={mostrar1}> Bienvenida</p>
+                    <button id="boton" onClick={mostrar1}>Mostrar</button>
+                </div>
+                <div id={styleContent.img1}>
+                    <button id="boton" onClick={ocultar1}>Ocultar</button>
+                    <img src={imagen1} width="800px" alt="" />
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar3}> Conocenos </h1>
+                    <button id="boton" onClick={mostrar3}>Mostrar</button>
+                    <div id={styleContent.img3}>
+                        <button id="boton" onClick={ocultar3}>Ocultar</button>
+                        <img src={imagen3} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar4}> Energía en Movimiento </h1>
+                    <button id="boton" onClick={mostrar4}>Mostrar</button>
+                    <div id={styleContent.img4}>
+                        <button id="boton" onClick={ocultar4}>Ocultar</button>
+                        <img src={imagen4} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar6}> La luz es una manifestación de la energía </h1>
+                    <button id="boton" onClick={mostrar6}>Mostrar</button>
+                    <div id={styleContent.img6}>
+                        <button id="boton" onClick={ocultar6}>Ocultar</button>
+                        <img src={imagen6} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar7}> Propiedad de la Luz </h1>
+                    <button id="boton" onClick={mostrar7}>Mostrar</button>
+                    <div id={styleContent.img7}>
+                        <button id="boton" onClick={ocultar7}>Ocultar</button>
+                        <img src={imagen7} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar8}> El Movimiento </h1>
+                    <button id="boton" onClick={mostrar8}>Mostrar</button>
+                    <div id={styleContent.img8}>
+                        <button id="boton" onClick={ocultar8}>Ocultar</button>
+                        <img src={imagen8} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar9}> El sol fuente de energía del Sistema Solar </h1>
+                    <button id="boton" onClick={mostrar9}>Mostrar</button>
+                    <div id={styleContent.img9}>
+                        <button id="boton" onClick={ocultar9}>Ocultar</button>
+                        <img src={imagen9} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar10}> Los eclipses </h1>
+                    <button id="boton" onClick={mostrar10}>Mostrar</button>
+                    <div id={styleContent.img10}>
+                        <button id="boton" onClick={ocultar10}>Ocultar</button>
+                        <img src={imagen10} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar11}> Eclipse Lunar </h1>
+                    <button id="boton" onClick={mostrar11}>Mostrar</button>
+                    <div id={styleContent.img11}>
+                        <button id="boton" onClick={ocultar11}>Ocultar</button>
+                        <img src={imagen11} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar12}> Glosario </h1>
+                    <button id="boton" onClick={mostrar12}>Mostrar</button>
+                    <div id={styleContent.img12}>
+                        <button id="boton" onClick={ocultar12}>Ocultar</button>
+                        <img src={imagen12} width="800px" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 id="boton" onClick={mostrar13}> Bibliografía </h1>
+                    <button id="boton" onClick={mostrar13}>Mostrar</button>
+                    <div id={styleContent.img13}>
+                        <button id="boton" onClick={ocultar13}>Ocultar</button>
+                        <img src={imagen13} width="800px" alt="" />
+                    </div>
+                </div>
+            </center>
         </div>
-        // <div className="content">
-        //     <h1>Ciencias Naturales</h1>
-        //     <h4>3er Grado</h4>
-        //     <button id="boton" onclick={mostrar}>Mostrar Imagen</button>
-        //         <h1 id="boton" onclick={mostrar}> Mostar Imagen con H1</h1>
-        //         <div id={styleContent.img}>
-        //             <button id="boton" onclick={ocultar}> Ocultar </button>
-        //             <img src={imagen1} alt="img" width="800vw" height="650vw" />
-        //         </div>
-        //     <div>
-        //         <ul>
-        //             {/* <li>Bienvenida
-        //                 <button id="boton" onClick={mostrar}> Contenido </button>
-        //                 <div id={styleContent.img}>
-        //                     <button id="boton" onclick={ocultar}> Ocultar </button>
-        //                     <img src={imagen1} alt="img" width="800vw" height="650vw" />
-        //                 </div>
-        //             </li> */}
-        //             <li>Conocenos
-        //                 <button> Contenido
-        //                     <img src={imagen3} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Energía en Movimiento
-        //                 <button> Contenido
-        //                     <img src={imagen4} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>La luz es una manifestación de la energía
-        //                 <button> Contenido
-        //                     <img src={imagen6} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Propiedad de la Luz
-        //                 <button> Contenido
-        //                     <img src={imagen7} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>El Movimiento
-        //                 <button> Contenido
-        //                     <img src={imagen8} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>El sol fuente de energía del Sistema Solar
-        //                 <button> Contenido
-        //                     <img src={imagen9} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Los eclipses
-        //                 <button> Contenido
-        //                     <img src={imagen10} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Eclipse Lunar
-        //                 <button> Contenido
-        //                     <img src={imagen11} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Glosario
-        //                 <button> Contenido
-        //                     <img src={imagen12} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //             <li>Bibliografía
-        //                 <button> Contenido
-        //                     <img src={imagen13} alt="img" width="800vw" height="650vw" />
-        //                 </button>
-        //             </li>
-        //         </ul>
-        //     </div>
-        // </div>
     )
 }

@@ -1,5 +1,11 @@
 .Home {
-  background: #c1def7;
+  width: 100%;
+  display: flex;
+}
+
+.home-content {
+  width: 94%;
+  box-sizing: border-box;
 }
 
 .title-h1 {
